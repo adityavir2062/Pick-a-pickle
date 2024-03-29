@@ -1,0 +1,165 @@
+h1 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+}
+
+body{
+    background-color:gold;
+}
+
+.nav_outer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.nav_outer .menu{
+    float: left;
+
+}
+
+
+.menu li a:hover{
+    font-size: larger;
+    color: red;
+    z-index: 1.5;
+}
+
+.nav_outer  .menu li {
+    border: 1.5px red solid;
+    border-radius: 5%;
+    display: inline-block;
+    padding: 5px;
+    margin-left: 5px;
+    
+}
+
+
+.menu li a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: large;
+}
+
+.nav_outer .logup{
+    float:inline-start;
+}
+
+.logup ul{
+    margin-right: 30px;
+}
+
+.nav_outer .logup li{
+    border: 1.5px red solid;
+    border-radius: 5%;
+    display: inline-block;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.logup li a {
+
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: large;
+}
+
+.logup li a:hover{
+    font-size: larger;
+    color: red;
+    z-index: 1.5;
+}
+
+
+.container_1{
+    
+    height: 210px;
+    margin: 0px;
+    background-color: gold;
+
+}
+.container_1 .images{
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    
+}
+
+.images .img{
+    border: 1px solid black;
+    border-radius: 5%;
+}
+
+.images .img:hover{
+    zoom: 110%;
+    border: 1px solid black;
+    border-radius: 10%;
+}
+
+.container_2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container_2 .image{
+    float: left;
+    padding: 5px;
+}
+
+.Short-note {
+    float: right;
+    padding: 5px;
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    text-align: center;
+}
+
+.Youtube{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.Youtube iframe{
+    border-radius: 5%;
+}
+
+
+.contact {
+    background-color: black;
+    width: 100%;
+    justify-content: center;
+    height: 150px;
+}
+
+.contact ul {
+    display: block;
+    background-color: midnightblue;
+    width: 90%;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    border: 2px solid white;
+    border-radius: 2%;
+}
+
+.contact li{
+    display: block;
+    background-color: midnightblue;
+    font-size: larger;
+    color: white;
+}
+
+.contact a{
+    font-size: larger;
+    color: white;
+    text-decoration: underline;
+}
+
